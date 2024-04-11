@@ -57,7 +57,8 @@ extension MessageDTO {
     }
     
     func toModel() -> Message {
-        return .init(role: Role(rawValue: self.role),
+        return .init(id: UUID(),
+                     role: Role(rawValue: self.role),
                      content: self.content)
     }
 }

@@ -10,9 +10,15 @@
 		B4B3E2BD2B42D1BB00818B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3E2BC2B42D1BB00818B3C /* AppDelegate.swift */; };
 		B4B3E2BF2B42D1BB00818B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3E2BE2B42D1BB00818B3C /* SceneDelegate.swift */; };
 		B4B3E2C12B42D1BB00818B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3E2C02B42D1BB00818B3C /* ViewController.swift */; };
-		B4B3E2C42B42D1BB00818B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B3E2C22B42D1BB00818B3C /* Main.storyboard */; };
 		B4B3E2C62B42D1BC00818B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B3E2C52B42D1BC00818B3C /* Assets.xcassets */; };
 		B4B3E2C92B42D1BC00818B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B3E2C72B42D1BC00818B3C /* LaunchScreen.storyboard */; };
+		BD19DF8C2BC12DCD003412EA /* UIVIewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19DF8B2BC12DCD003412EA /* UIVIewController+.swift */; };
+		BD4A41252BC3DEEE00DFF0B4 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */; };
+		BD4A41282BC3DF0C00DFF0B4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD4A41272BC3DF0C00DFF0B4 /* SnapKit */; };
+		BD4A412A2BC3DF0C00DFF0B4 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = BD4A41292BC3DF0C00DFF0B4 /* SnapKit-Dynamic */; };
+		BD4A412C2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A412B2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift */; };
+		BD4A412E2BC3DF4400DFF0B4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A412D2BC3DF4400DFF0B4 /* ViewModel.swift */; };
+		BD4A41302BC3DF7200DFF0B4 /* UIcollectionViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A412F2BC3DF7200DFF0B4 /* UIcollectionViewCell+.swift */; };
 		BDD77F8E2BBA9AAA00192556 /* ChatBotResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD77F8D2BBA9AAA00192556 /* ChatBotResponseDTO.swift */; };
 		BDD77F8F2BBA9AAA00192556 /* ChatBotResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD77F8D2BBA9AAA00192556 /* ChatBotResponseDTO.swift */; };
 		BDD77F912BBA9B4400192556 /* ChatBotRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD77F902BBA9B4400192556 /* ChatBotRequestDTO.swift */; };
@@ -53,10 +59,14 @@
 		B4B3E2BC2B42D1BB00818B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4B3E2BE2B42D1BB00818B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4B3E2C02B42D1BB00818B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B4B3E2C32B42D1BB00818B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4B3E2C52B42D1BC00818B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B3E2C82B42D1BC00818B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4B3E2CA2B42D1BC00818B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD19DF8B2BC12DCD003412EA /* UIVIewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+.swift"; sourceTree = "<group>"; };
+		BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		BD4A412B2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewModel.swift; sourceTree = "<group>"; };
+		BD4A412D2BC3DF4400DFF0B4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BD4A412F2BC3DF7200DFF0B4 /* UIcollectionViewCell+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcollectionViewCell+.swift"; sourceTree = "<group>"; };
 		BDD77F8D2BBA9AAA00192556 /* ChatBotResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotResponseDTO.swift; sourceTree = "<group>"; };
 		BDD77F902BBA9B4400192556 /* ChatBotRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotRequestDTO.swift; sourceTree = "<group>"; };
 		BDD77F962BBA9B9300192556 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
@@ -79,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4A41282BC3DF0C00DFF0B4 /* SnapKit in Frameworks */,
+				BD4A412A2BC3DF0C00DFF0B4 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,12 +125,40 @@
 		B4B3E2BB2B42D1BB00818B3C /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
+				BD4A41232BC3DECF00DFF0B4 /* Presentaion */,
+				BD19DF8D2BC12F29003412EA /* New Group */,
 				BDD77FB12BBE80A600192556 /* App */,
 				BDD77F942BBA9B6200192556 /* Infra */,
 				BDD77F932BBA9B5A00192556 /* Domain */,
 				B4B3E2CA2B42D1BC00818B3C /* Info.plist */,
 			);
 			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		BD19DF8A2BC12DA9003412EA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE5E22B12BBBDE8A004B7FF7 /* Bundle+.swift */,
+				BD19DF8B2BC12DCD003412EA /* UIVIewController+.swift */,
+				BD4A412F2BC3DF7200DFF0B4 /* UIcollectionViewCell+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BD19DF8D2BC12F29003412EA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		BD4A41232BC3DECF00DFF0B4 /* Presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */,
+				BD4A412B2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift */,
+			);
+			path = Presentaion;
 			sourceTree = "<group>";
 		};
 		BDD77F8C2BBA9A8500192556 /* DTO */ = {
@@ -188,7 +228,6 @@
 				B4B3E2BC2B42D1BB00818B3C /* AppDelegate.swift */,
 				B4B3E2BE2B42D1BB00818B3C /* SceneDelegate.swift */,
 				B4B3E2C02B42D1BB00818B3C /* ViewController.swift */,
-				B4B3E2C22B42D1BB00818B3C /* Main.storyboard */,
 				B4B3E2C52B42D1BC00818B3C /* Assets.xcassets */,
 				B4B3E2C72B42D1BC00818B3C /* LaunchScreen.storyboard */,
 			);
@@ -198,7 +237,8 @@
 		CE5E22B02BBBDE69004B7FF7 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				CE5E22B12BBBDE8A004B7FF7 /* Bundle+.swift */,
+				BD19DF8A2BC12DA9003412EA /* Extension */,
+				BD4A412D2BC3DF4400DFF0B4 /* ViewModel.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -241,6 +281,10 @@
 			dependencies = (
 			);
 			name = ChatBot;
+			packageProductDependencies = (
+				BD4A41272BC3DF0C00DFF0B4 /* SnapKit */,
+				BD4A41292BC3DF0C00DFF0B4 /* SnapKit-Dynamic */,
+			);
 			productName = ChatBot;
 			productReference = B4B3E2B92B42D1BB00818B3C /* ChatBot.app */;
 			productType = "com.apple.product-type.application";
@@ -291,6 +335,9 @@
 				Base,
 			);
 			mainGroup = B4B3E2B02B42D1BB00818B3C;
+			packageReferences = (
+				BD4A41262BC3DF0C00DFF0B4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = B4B3E2BA2B42D1BB00818B3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,7 +355,6 @@
 			files = (
 				B4B3E2C92B42D1BC00818B3C /* LaunchScreen.storyboard in Resources */,
 				B4B3E2C62B42D1BC00818B3C /* Assets.xcassets in Resources */,
-				B4B3E2C42B42D1BB00818B3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,13 +375,18 @@
 			files = (
 				BDD77F8E2BBA9AAA00192556 /* ChatBotResponseDTO.swift in Sources */,
 				BDD77F972BBA9B9300192556 /* Role.swift in Sources */,
+				BD4A41252BC3DEEE00DFF0B4 /* ChatRoomViewController.swift in Sources */,
 				B4B3E2C12B42D1BB00818B3C /* ViewController.swift in Sources */,
+				BD4A41302BC3DF7200DFF0B4 /* UIcollectionViewCell+.swift in Sources */,
 				B4B3E2BD2B42D1BB00818B3C /* AppDelegate.swift in Sources */,
 				CE5E22AF2BBAA6C7004B7FF7 /* API.swift in Sources */,
+				BD4A412E2BC3DF4400DFF0B4 /* ViewModel.swift in Sources */,
 				BDD77F912BBA9B4400192556 /* ChatBotRequestDTO.swift in Sources */,
 				CE5E22B22BBBDE8A004B7FF7 /* Bundle+.swift in Sources */,
 				BDD77FA12BBAA04100192556 /* HTTPMethod.swift in Sources */,
+				BD19DF8C2BC12DCD003412EA /* UIVIewController+.swift in Sources */,
 				BDD77F9E2BBA9DD900192556 /* URLRequestBuilder.swift in Sources */,
+				BD4A412C2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift in Sources */,
 				BDD77F9B2BBA9BC000192556 /* Message.swift in Sources */,
 				BDD77FA82BBBF36200192556 /* ChatBotService.swift in Sources */,
 				BDD77FA42BBBF01300192556 /* NetworkService.swift in Sources */,
@@ -373,14 +424,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B4B3E2C22B42D1BB00818B3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4B3E2C32B42D1BB00818B3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B4B3E2C72B42D1BC00818B3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -524,7 +567,6 @@
 				INFOPLIST_FILE = ChatBot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -554,7 +596,6 @@
 				INFOPLIST_FILE = ChatBot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -640,6 +681,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD4A41262BC3DF0C00DFF0B4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD4A41272BC3DF0C00DFF0B4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD4A41262BC3DF0C00DFF0B4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BD4A41292BC3DF0C00DFF0B4 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD4A41262BC3DF0C00DFF0B4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4B3E2B12B42D1BB00818B3C /* Project object */;
 }
