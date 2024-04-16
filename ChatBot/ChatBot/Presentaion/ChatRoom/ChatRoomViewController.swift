@@ -60,7 +60,6 @@ class ChatRoomViewController: UIViewController {
         return cell
     }
     private var input: ChatRoomViewModel.Input
-    
     private var snapshot: NSDiffableDataSourceSnapshot<Section, Message>?
     
     init(viewModel: ChatRoomViewModel) {
@@ -159,7 +158,9 @@ extension ChatRoomViewController {
         
         UIView.animate(withDuration: 0.3) {
             self.view.layoutIfNeeded()
+            self.repositionCollectionView(animated: true)
         }
+        
     }
     
     @objc private func keyboardWillHide() {
