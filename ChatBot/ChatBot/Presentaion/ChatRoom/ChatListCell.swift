@@ -5,11 +5,8 @@ class ChatListCell: UICollectionViewCell {
     var label: UILabel = {
         let label = UILabel()
         label.backgroundColor = .black
-//        label.textColor = .white
         label.textColor = .systemGreen
         label.numberOfLines = 0
-//        label.font = UIFont.systemFont(ofSize: 16)
-//        label.font = UIFont(name: "Menlo", size: 17)
         label.font = UIFont(name: "Galmuri9", size: 17)
         return label
     }()

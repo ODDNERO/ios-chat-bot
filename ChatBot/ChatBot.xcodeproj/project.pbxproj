@@ -182,11 +182,19 @@
 		BD4A41232BC3DECF00DFF0B4 /* Presentaion */ = {
 			isa = PBXGroup;
 			children = (
+				BD9A3E592BCE654E00A1176B /* ChatRoom */,
+			);
+			path = Presentaion;
+			sourceTree = "<group>";
+		};
+		BD9A3E592BCE654E00A1176B /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
 				BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */,
 				BD4A412B2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift */,
 				BD1846A82BCD185F00DE8A36 /* ChatListCell.swift */,
 			);
-			path = Presentaion;
+			path = ChatRoom;
 			sourceTree = "<group>";
 		};
 		BDD77F8C2BBA9A8500192556 /* DTO */ = {
