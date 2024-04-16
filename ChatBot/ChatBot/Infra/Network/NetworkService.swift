@@ -35,7 +35,7 @@ final class DefaultNetworkService: NetworkService {
         do {
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
             if let httpResponse = response as? HTTPURLResponse,
-                httpResponse.statusCode != 200 {
+                !(200..<300 ~= httpResponse.statusCode) {
                 throw NetworkError.error(statusCode: httpResponse.statusCode, data: data)
             }
             return data

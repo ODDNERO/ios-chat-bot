@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Galmuri9.ttf</string>
+		<string>DOSGothic.ttf</string>
+		<string>NeoDunggeunmoPro-Regular.ttf</string>
+	</array>
 	<key>ChatBotAPIKey</key>
 	<string>$(CHATBOT_API_KEY)</string>
 	<key>UIApplicationSceneManifest</key>

@@ -12,6 +12,10 @@
 		B4B3E2C12B42D1BB00818B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B3E2C02B42D1BB00818B3C /* ViewController.swift */; };
 		B4B3E2C62B42D1BC00818B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B3E2C52B42D1BC00818B3C /* Assets.xcassets */; };
 		B4B3E2C92B42D1BC00818B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B3E2C72B42D1BC00818B3C /* LaunchScreen.storyboard */; };
+		BD1846A92BCD185F00DE8A36 /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1846A82BCD185F00DE8A36 /* ChatListCell.swift */; };
+		BD1846AD2BCD5F6B00DE8A36 /* NeoDunggeunmoPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1846AC2BCD5F6A00DE8A36 /* NeoDunggeunmoPro-Regular.ttf */; };
+		BD1846AF2BCD60FD00DE8A36 /* DOSGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1846AE2BCD60FC00DE8A36 /* DOSGothic.ttf */; };
+		BD1846B12BCD622B00DE8A36 /* Galmuri9.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD1846B02BCD622A00DE8A36 /* Galmuri9.ttf */; };
 		BD19DF8C2BC12DCD003412EA /* UIVIewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19DF8B2BC12DCD003412EA /* UIVIewController+.swift */; };
 		BD4A41252BC3DEEE00DFF0B4 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */; };
 		BD4A41282BC3DF0C00DFF0B4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD4A41272BC3DF0C00DFF0B4 /* SnapKit */; };
@@ -62,6 +66,10 @@
 		B4B3E2C52B42D1BC00818B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B3E2C82B42D1BC00818B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4B3E2CA2B42D1BC00818B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1846A82BCD185F00DE8A36 /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		BD1846AC2BCD5F6A00DE8A36 /* NeoDunggeunmoPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeoDunggeunmoPro-Regular.ttf"; path = "../../../../../../../../Downloads/NeoDunggeunmoPro-Regular.ttf"; sourceTree = "<group>"; };
+		BD1846AE2BCD60FC00DE8A36 /* DOSGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DOSGothic.ttf; path = ../../../../../../../../Downloads/fonts_220507/ttf/DOSGothic.ttf; sourceTree = "<group>"; };
+		BD1846B02BCD622A00DE8A36 /* Galmuri9.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Galmuri9.ttf; path = ../../../../../../../../Downloads/Galmuri9.ttf; sourceTree = "<group>"; };
 		BD19DF8B2BC12DCD003412EA /* UIVIewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+.swift"; sourceTree = "<group>"; };
 		BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
 		BD4A412B2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewModel.swift; sourceTree = "<group>"; };
@@ -130,9 +138,28 @@
 				BDD77FB12BBE80A600192556 /* App */,
 				BDD77F942BBA9B6200192556 /* Infra */,
 				BDD77F932BBA9B5A00192556 /* Domain */,
+				BD1846AA2BCD5F3400DE8A36 /* Resource */,
 				B4B3E2CA2B42D1BC00818B3C /* Info.plist */,
 			);
 			path = ChatBot;
+			sourceTree = "<group>";
+		};
+		BD1846AA2BCD5F3400DE8A36 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD1846AB2BCD5F4100DE8A36 /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD1846AB2BCD5F4100DE8A36 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BD1846B02BCD622A00DE8A36 /* Galmuri9.ttf */,
+				BD1846AE2BCD60FC00DE8A36 /* DOSGothic.ttf */,
+				BD1846AC2BCD5F6A00DE8A36 /* NeoDunggeunmoPro-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		BD19DF8A2BC12DA9003412EA /* Extension */ = {
@@ -157,6 +184,7 @@
 			children = (
 				BD4A41242BC3DEEE00DFF0B4 /* ChatRoomViewController.swift */,
 				BD4A412B2BC3DF2D00DFF0B4 /* ChatRoomViewModel.swift */,
+				BD1846A82BCD185F00DE8A36 /* ChatListCell.swift */,
 			);
 			path = Presentaion;
 			sourceTree = "<group>";
@@ -353,6 +381,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1846B12BCD622B00DE8A36 /* Galmuri9.ttf in Resources */,
+				BD1846AD2BCD5F6B00DE8A36 /* NeoDunggeunmoPro-Regular.ttf in Resources */,
+				BD1846AF2BCD60FD00DE8A36 /* DOSGothic.ttf in Resources */,
 				B4B3E2C92B42D1BC00818B3C /* LaunchScreen.storyboard in Resources */,
 				B4B3E2C62B42D1BC00818B3C /* Assets.xcassets in Resources */,
 			);
@@ -379,6 +410,7 @@
 				B4B3E2C12B42D1BB00818B3C /* ViewController.swift in Sources */,
 				BD4A41302BC3DF7200DFF0B4 /* UIcollectionViewCell+.swift in Sources */,
 				B4B3E2BD2B42D1BB00818B3C /* AppDelegate.swift in Sources */,
+				BD1846A92BCD185F00DE8A36 /* ChatListCell.swift in Sources */,
 				CE5E22AF2BBAA6C7004B7FF7 /* API.swift in Sources */,
 				BD4A412E2BC3DF4400DFF0B4 /* ViewModel.swift in Sources */,
 				BDD77F912BBA9B4400192556 /* ChatBotRequestDTO.swift in Sources */,
